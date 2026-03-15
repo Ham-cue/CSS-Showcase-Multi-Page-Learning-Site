@@ -1,0 +1,105 @@
+p{
+    animation-name: colorsw;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorsw{
+    0%{color: hsl(0, 0%, 0%);}
+    25%{color: hsl(0, 28%, 22%);}
+    50%{color: hsl(0, 46%, 21%);}
+    75%{color: hsl(0, 62%, 32%);}
+    100%{color: hsl(0, 89%, 45%);}
+}
+
+#bob{
+    animation-name: slideleft;
+    animation-duration: 1s;
+}
+@keyframes slideleft{
+    from{transform: translateX(1000%);}
+}
+div{
+    display: inline-block;
+}
+.logs{
+    animation-name: log;
+    animation-duration: 5s;
+    
+}
+@keyframes log{
+    from{transform: translateX(200%);}
+}
+
+#shrek{
+    animation-name: jump;
+    animation-duration: 5s;
+}
+@keyframes jump{
+    from{transform: translateY(-250%);}
+}
+
+#t:hover{
+    animation-name: tww;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+     
+ @keyframes tww{
+    50%{transform:rotateZ(360deg);}
+}
+
+#c2{
+    
+    animation-name: c3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes c3{
+    50%{transform: scale(120%);}
+}
+
+#m2{
+    display: block;
+}
+#m2:hover{
+    padding: 1%;
+    animation-name: m3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes m3{
+    0%{background-color: aquamarine;}
+    10%{background-color: blue;}
+    40%{background-color: blueviolet;}
+    60%{background-color: chartreuse;}
+    87%{background-color: firebrick;}
+    100%{background-color: gold;}
+}
+
+body{
+    background-color: hsl(216, 90%, 69%);
+    animation-name: bo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bo{
+    0%{background-color: hsl(216, 90%, 69%);}
+    50%{background-color: rgb(105, 105, 248);}
+}
+
+.pagination a{
+   text-decoration: none;
+   color: aliceblue;
+   padding: 25px;
+}
+.pagination a.active{
+    color: hsl(120, 86%, 50%);
+}
+
+.pagination a:hover:not(.active){
+    color: rgb(192, 192, 192);
+}

@@ -1,0 +1,28 @@
+main{background-image: url(Images/droplets.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: hsl(234, 100%, 66%);
+}
+footer{
+    background-color: color-mix(in srgb, hsl(276, 85%, 68%) 50%, rgb(0, 0, 0) 50%);
+}
+body{
+    background-color: blueviolet;
+}
+
+.pagination a{
+   text-decoration: none;
+   color: aliceblue;
+   padding: 25px;
+}
+.pagination a.active{
+    color: hsl(120, 86%, 50%);
+}
+
+.pagination a:hover:not(.active){
+    color: rgb(192, 192, 192);
+}

@@ -1,0 +1,44 @@
+body{
+    background-color: hsla(276, 65%, 31%, 0.877);
+}
+
+.bor{
+     border: 30px solid black; padding: 3%; text-align: center;
+}
+
+#b1{
+    border: 30px solid  hsl(0, 98%, 67%) ;
+}
+
+#b2{
+    border: dotted; color: hsl(240, 100%, 25%);
+}
+
+#b3{
+    border: groove; color: hsl(172, 80%, 48%);
+}
+
+#b4{
+    border: dashed; color: hsl(283, 100%, 64%);
+}
+
+#b5{
+    border: double; color: hsl(340, 86%, 58%);
+}
+
+.pagination{
+    text-align: center;
+    
+}
+.pagination a{
+   text-decoration: none;
+   color: aliceblue;
+   padding: 25px;
+}
+.pagination a.active{
+    color: hsl(120, 86%, 50%);
+}
+
+.pagination a:hover:not(.active){
+    color: rgb(192, 192, 192);
+}

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Bit;
+    src: url(..//Fonts/Bitcount_Grid_Double/BitcountGridDouble-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
+}
+@font-face {
+    font-family: play;
+    src: url(..//Fonts/Playwrite_CU_Guides/PlaywriteCUGuides-Regular.ttf);
+}
+p   {
+    font-family: play;
+    font-family: BIt;
+    color: hsl(180, 64%, 76%);
+}
+p::selection{
+    color: hsl(61, 82%, 59%);background-color: rgb(112, 112, 112);
+}
+body{
+    background-color: hsl(0, 0%, 0%);margin: 0px;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: blue;text-shadow:  2px 5px 3px red;
+}
+#p2{
+     text-shadow:  9px 7px 2px hsl(30, 100%, 100%);
+}
+h3{
+    color: hsl(236, 100%, 57%);background-color: hsl(303, 96%, 56%);font-size:  1.5em;
+}
+#p3{
+     overflow: auto;background-color: hsla(180, 1%, 39%, 0.459);font-family: bit;
+}
+#p3 p{
+    color: hsl(327, 100%, 50%)
+}
+#p3 {
+    border: 3px red solid ;
+    width: 600px;
+    height: 300px;
+}
+
+.pagination a{
+   text-decoration: none;
+   color: aliceblue;
+   padding: 25px;
+}
+.pagination a.active{
+    color: hsl(120, 86%, 50%);
+}
+
+.pagination a:hover:not(.active){
+    color: rgb(192, 192, 192);
+}

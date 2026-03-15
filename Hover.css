@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(255, 0, 255);
+}
+
+p:hover{text-align: center; color: red; display: block;border: 10px solid hsl(78, 83%, 60%);
+    height: 50px; text-size-adjust: 2em;
+}
+
+img:hover{color: aqua;float: right;
+
+}
+
+button{
+    display: block;
+}
+
+button:hover .Hidden{
+    display: block;
+}
+
+.Hidden{
+    display: none;
+}
+
+.pagination{
+    text-align: center;
+    
+}
+.pagination a{
+   text-decoration: none;
+   color: aliceblue;
+   padding: 15px;
+   border: 1px solid hsla(0, 0%, 53%, 0.842);
+   border-radius: 50px;
+   background-color: hsla(0, 0%, 53%, 0.842);
+   margin: 0.3%;
+}
+.pagination a.active{
+    color: hsl(120, 92%, 61%);
+}
+
+.pagination a:hover:not(.active){
+    color: rgb(192, 192, 192);
+}

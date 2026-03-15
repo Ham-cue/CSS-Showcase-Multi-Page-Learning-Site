@@ -1,0 +1,53 @@
+.cbox{
+    border: 9px hsl(240, 100%, 14%) solid;
+   display: flex;
+   flex-wrap: wrap;
+   align-content:flex-start ;
+
+   }
+
+.box{
+    border: 3px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 7em;
+    border-radius: 5px;
+}
+
+#box1{
+    background-color: hsl(240, 100%, 50%);
+}
+
+#box2{
+    background-color: hsl(71, 100%, 50%);
+}
+
+#box3{
+    background-color: hsl(340, 100%, 50%);
+}
+
+#box4{
+    background-color: hsl(0, 100%, 50%);
+}
+
+#box5{
+    background-color: hsl(278, 100%, 50%);
+}
+
+.pagination a{
+   text-decoration: none;
+   color: aliceblue;
+   padding: 25px;
+}
+.pagination a.active{
+    color: hsl(120, 86%, 50%);
+}
+
+.pagination a:hover:not(.active){
+    color: rgb(192, 192, 192);
+}
+
+body{
+    background-color: hsla(195, 97%, 14%, 0.664);
+}
